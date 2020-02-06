@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UsersModule } from 'src/users/users.module';
+import { UsersRoutingModule } from 'src/users/users.routing';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { UsersModule } from 'src/users/users.module';
   ],
   imports: [
     BrowserModule,
+    UsersRoutingModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     UsersModule
